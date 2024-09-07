@@ -36,7 +36,7 @@ android {
             path("src/main/cpp/CMakeLists.txt")
         }
     }
-    namespace = "io.github.lsposed.boot_var_spoof"
+    namespace = "io.github.lsposed.build_var_spoof"
 }
 
 cmaker {

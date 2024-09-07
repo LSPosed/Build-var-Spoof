@@ -253,7 +253,7 @@ void read_config(FILE *config, SpoofConfig &spoof_config) {
 }
 
 static void companion_handler(int fd) {
-    constexpr auto kSpoofConfigFile = "/data/adb/boot_var_spoof/spoof_build_vars"sv;
+    constexpr auto kSpoofConfigFile = "/data/adb/build_var_spoof/spoof_build_vars"sv;
     constexpr auto kDefaultSpoofConfig =
 R"EOF(MANUFACTURER=Google
 MODEL=Pixel

@@ -7,9 +7,9 @@ Build Vars Spoofing. **Android 8.1 or above is required**.
 1. Flash this module and reboot.
 2. Enjoy!
 
-You can try enabling/disabling Build variable spoofing by creating/deleting the file `/data/adb/boot_var_spoof/spoof_build_vars`.
+You can try enabling/disabling Build variable spoofing by creating/deleting the file `/data/adb/build_var_spoof/spoof_build_vars`.
 
-Build Vars Spoofing will automatically generate example config props inside `/data/adb/boot_var_spoof/spoof_build_vars` once created, on next reboot, then you may manually edit your spoof config.
+Build Vars Spoofing will automatically generate example config props inside `/data/adb/build_var_spoof/spoof_build_vars` once created, on next reboot, then you may manually edit your spoof config.
 
 Here is an example of a spoof config:
 

@@ -20,8 +20,8 @@ val gitCommitCount = "git rev-list HEAD --count".execute().toInt()
 val gitCommitHash = "git rev-parse --verify --short HEAD".execute()
 
 // also the soname
-val moduleId by extra("boot_var_spoof")
-val moduleName by extra("Boot var Spoof")
+val moduleId by extra("build_var_spoof")
+val moduleName by extra("Build var Spoof")
 val author by extra("LSPosed Developers")
 val description by extra("Build Vars Spoofing")
 val verName by extra("v1.0.0")
